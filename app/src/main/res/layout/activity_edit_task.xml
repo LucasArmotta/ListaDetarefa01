@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="Task:"
+        android:text="Tarefa"
         android:textSize="18sp" />
 
     <TextView
@@ -22,7 +22,7 @@
         android:layout_below="@+id/text_view_task"
         android:layout_marginStart="16dp"
         android:layout_marginTop="10dp"
-        android:text="Category:"
+        android:text="Categoria:"
         android:textSize="18sp" />
 
     <Spinner
@@ -39,7 +39,7 @@
         android:layout_below="@id/category_spinner"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="Priority:"
+        android:text="Prioridade:"
         android:textSize="18sp" />
 
     <Spinner
@@ -56,7 +56,7 @@
         android:layout_below="@id/priority_spinner"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="Due Date:"
+        android:text="Data"
         android:textSize="18sp" />
 
     <Button
@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/text_view_due_date"
         android:layout_marginTop="8dp"
-        android:text="Select Date" />
+        android:text="Selecionar Data" />
 
     <TextView
         android:id="@+id/selected_date_text_view"
@@ -83,7 +83,7 @@
         android:layout_below="@id/selected_date_text_view"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="Due Time:"
+        android:text="Hora"
         android:textSize="18sp" />
 
     <Button
@@ -92,7 +92,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/text_view_due_time"
         android:layout_marginTop="8dp"
-        android:text="Select Time" />
+        android:text="Selecionar Hora" />
 
     <TextView
         android:id="@+id/selected_time_text_view"
@@ -110,7 +110,7 @@
         android:layout_below="@id/selected_time_text_view"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="Notes:"
+        android:text="Notas:"
         android:textSize="18sp" />
 
     <EditText
@@ -119,7 +119,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/text_view_notes"
         android:layout_marginTop="8dp"
-        android:hint="Update notes" />
+        android:hint="Atualizações de Notas" />
 
     <Button
         android:id="@+id/button_add_task"
@@ -127,6 +127,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/notes_edit_text"
         android:layout_marginTop="16dp"
-        android:text="Edit Task" />
+        android:text="Editar Tarefa" />
 
 </RelativeLayout>
